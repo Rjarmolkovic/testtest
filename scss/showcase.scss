@@ -1,0 +1,60 @@
+.showcase{
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.fullyimg{
+  width: 400px;
+  height: 270px;
+  background: url(../images/bg-showcase-1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.updatedimg{
+  width: 400px;
+  height: 270px;
+  background: url(../images/bg-showcase-2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.customimg{
+  width: 400px;
+  height: 270px;
+  background: url(../images/bg-showcase-3.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.box{
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-one{
+  width: 100%;
+  height: auto;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.row-two{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-three{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}

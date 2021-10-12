@@ -1,0 +1,44 @@
+.allin{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.signup {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+}
+
+.up {
+margin: 25px;
+display: flex;
+align-self: center;
+}
+
+.img {
+  width: 800px;
+  height: 260px;
+  background: url(../images/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.button{
+  width: 75px;
+  height: 26px;
+  color:white;
+  background: #185ADB;
+  border: 3px solid #185ADB;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0 0 0 5px;
+  cursor: pointer;
+}

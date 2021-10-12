@@ -1,0 +1,33 @@
+header {
+  position: fixed;
+  top: 0;
+  margin-top: 0 0 0 0 ;
+  display: flex;
+  justify-content: space-around;
+  min-width: 1000px;
+  height: 25px;
+  font-family:lato;
+  font-size: 15;
+}
+
+.b1{
+  color:black;
+  font-weight: bold;
+  font-size:15px;
+}
+
+.signin{
+  width: 60px;
+  height: 25px;
+  color:white;
+  background: #185ADB;
+  border: 3px solid #185ADB;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+li {
+  list-style: none;
+}

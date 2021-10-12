@@ -1,0 +1,87 @@
+@import 'reset.scss';
+@import 'body.scss';
+@import 'Header.scss';
+@import 'Allin.scss';
+@import 'h1-h2-a-i.scss';
+@import 'icons.scss';
+@import 'showcase.scss';
+@import 'people.scss';
+@import 'bottom-sig-nup.scss';
+@import 'rights.scss';
+
+
+@media (max-width: 700px){
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+
+}
+
+
+
+@media(max-width: 800px){
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+}
+
+@media(max-width: 800px){
+  .people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+}
+@media (max-width: 800px){
+  header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  }
+}
+
+@media( max-width: 800px){
+  .rights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+  .social{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+
+@media(max-width: 800px){
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+}
+
+@media(max-width: 800px){
+  h1{display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+
+  }
+}

@@ -1,0 +1,40 @@
+.bottomsignup{
+  width: 800px;
+  height: 260px;
+  background: url(../images/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  }
+
+
+
+.bottom1{
+  color: white;
+  font-family:lato;
+  font-size: 20px;
+display: flex;
+flex-direction: column;
+justify-content:center;
+}
+
+.bottomup{
+  height: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottombutton{
+  width: 75px;
+  height: 26px;
+  color:white;
+  background: #185ADB;
+  border: 3px solid #185ADB;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0 0 0 5px;
+  cursor: pointer;
+}
